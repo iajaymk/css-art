@@ -1,0 +1,14 @@
+body{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgb(98, 179, 255);
+}
+
+.face{
+    background-color: #ffdc15;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
