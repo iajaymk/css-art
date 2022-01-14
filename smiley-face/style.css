@@ -13,12 +13,41 @@ body{
     border-radius: 50%;
 }
 
+.eyes{
+    /* border: 2px solid green; */
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.left-eye{
+    background-color: rgb(204, 94, 4);
+    height: 70px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.right-eye{
+    background-color: rgb(204, 94, 4);
+    height: 70px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
 .mouth{
     background-color: rgb(204, 94, 4);
     border-radius: 10px 10px 100px 100px;
-    height: 50px;
+    height: 70px;
     width: 200px;
     position: absolute;
-    top: 200px;
+    top: 180px;
     left: 50px;
 }
