@@ -3,6 +3,97 @@ body {
     justify-content: center;
     align-items: center;
     height: 97vh;
-    background: white;
-  }
-  
+    background: rgb(253, 80, 80);
+}
+
+.monitor{
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.paper{
+    background-color: white;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 20px;
+    transform: rotate(45deg);
+    border-radius: 10px;
+}
+
+.white{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.keyboard{
+    background-color: #535353;
+    padding: 30px 15px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+div[class*='line']{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.buttons:hover{
+    transform: rotate(45deg);
+}
+
+.area{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+span{
+    padding: 5px;
+}
+
+.special{
+    background-color: blue;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.letters{
+    background-color: white;
+    margin: 10px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
